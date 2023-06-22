@@ -1,8 +1,42 @@
-*{
-   
-}
-header (
+header{
    display: flex;
-   flex-box: wrap;
-   border: solid 4px black;
-)
+   flex-wrap: wrap;
+   border: 1px black solid;
+}
+ 
+header h1 {
+   width: 50%;
+   border: 1px hotpink solid;
+}
+
+header nav {
+   width: 50%;
+   border: 1px hotpink solid;
+}
+
+nav ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+figure {
+   background-image: url(https://cdn.pixabay.com/photo/2019/08/17/19/13/landscape-4412784_1280.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 200px;
+}
+
+.left-side{
+   display:flex;
+   flex-wrap: wrap;
+}
+
+.left-side .title{
+width: 10%;
+border-right: 2px black solid;
+}
+
+.left-side.section-container{
+   width: 88%;
+}
