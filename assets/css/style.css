@@ -47,7 +47,9 @@ text-align: right;
 width: 88%;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: space-between; 
+margin-left: 130px;
+
 }
 
 .card{
@@ -64,7 +66,7 @@ margin-top: 20px;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-   width: 100%;
+   width: 120%;
 }
 
 #image1{
