@@ -6,12 +6,12 @@ header{
  
 header h1 {
    width: 50%;
-   border: 1px hotpink solid;
+   border: 1px black solid;
 }
 
 header nav {
    width: 50%;
-   border: 1px hotpink solid;
+   border: 1px black solid;
 }
 
 nav ul{
@@ -24,6 +24,7 @@ figure {
    background-image: url(https://cdn.pixabay.com/photo/2019/08/17/19/13/landscape-4412784_1280.jpg);
    background-size: cover;
    background-repeat: no-repeat;
+   background-attachment: scroll;
    height: 200px;
 }
 
@@ -31,31 +32,42 @@ img{
    width: 100%;
 }
 
+.section-container{
+   width: 100%;
+}
+
 .left-side{
    display:flex;
    flex-wrap: wrap;
    margin-top: 20px;
+   margin-right: 20px;
+   width: 95%;
+
 }
 
 .left-side .title{
 width: 10%;
-border-right: 2px black solid;
 text-align: right;
+/* height: 100%; */
 }
 
 .left-side .section-container{
-width: 88%;
+width: 100%;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between; 
-margin-left: 130px;
+justify-content: center; 
+margin-left: 150px;
 
 }
+.card-container{
+   justify-content: space-between !important;
 
+}
 .card{
-width: 45%;
+width: 44%;
 position: relative;
 margin-top: 20px;
+/* margin: auto; */
 }
 .card h3{
    position: absolute;
@@ -65,8 +77,8 @@ margin-top: 20px;
 .section-container ul{
    display: flex;
    flex-direction: row;
-   justify-content: space-evenly;
-   width: 120%;
+   justify-content: space-between;
+   width: 88%;
 }
 
 #image1{
@@ -80,3 +92,6 @@ margin-top: 20px;
    bottom: 10%;
 }
 
+#contact{
+   width: 100%;
+}
